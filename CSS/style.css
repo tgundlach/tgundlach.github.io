@@ -1,0 +1,211 @@
+/********************
+
+.  <--- Class
+#  <--- ID
+h2 <--- Element
+
+*********************/
+
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #c65954;
+  border-radius: 0;
+  background-image: none;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold; 
+    font-family:'Candara', 'Times New Roman', 'sans-serif';
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #626262;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+    font-family:'tahoma', 'verdana', 'arial', 'helvetica', 'sans-serif'; 
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: #fff;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #626262;
+  color: #e5e5e5;
+}
+
+/*** Portfolio pieces ***/
+.portfolio-thumbnail {
+  background-color: #fff;
+  border-color: #863ee3;
+  border-width: 2px;
+  width: 95%;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #ebd122;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}
+
+.portfolio-description {
+}
+
+.portfolio-image {
+}
+
+#about-world {
+  max-height: 200px;
+}
+
+.resume h3 {
+  font-weight: bold;
+}
+
+hr {
+  border-color: white;
+  border-width: 2px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: #863ee3;
+}
+
+a:hover {
+  color: #ebd122;
+}
+
+.jumbotron {
+  /*Stockphoto*/
+  background: url(../IMG/Cropped%20img-0833.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.jumbotron h2 {
+  font-size: 32px;          /* Name font size */
+  font-weight: bold;        /* Bold Text */
+  margin-left: 210px;       /* 120px space before the name to make room for the logo */
+  position: relative;       /* Allows it to be next to the image*/
+    color:#fff;
+    font-family:'Lucida Handwriting', 'Candara', 'Times New Roman', 'corbel', 'tahoma', 'verdana', 'arial', 'helvetica', 'sans-serif';
+}
+
+.jumbotron img {
+    width: 190px;           /* Width of Image to scale    */
+    position: absolute;     /* allows to be on the same line height as the name*/
+   margin-bottom:15px         /* 10px margin above the logo to center it  */ 
+}
+
+body {
+  padding-top: 50px;
+  font-family: 'Georgia', serif;
+  background-color: #f7f1fa;
+  color: #242424;
+}
+
+.footer p {
+  padding-top: 25px;
+  font-size: 12px;
+  font-style: italic;
+  font-family: 'Georgia', serif;  
+  background-color: #ddd;
+  color: #000; 
+}
+
+.content-about p {
+    text-align: justify;
+}
+
+.content-about img {
+    width:100%;
+}
+
+.content {
+    font-size: 12px;
+    font-family: 'Georgia', serif;  
+    color: #000; 
+    width:80%;
+    align-content: center;
+    margin-left: 10%;   
+}
+
+.content-contact img {
+    width:100px;
+}
+
+.content-contact #myimage {
+    width:100%;
+}
+
+.content #resume {
+    width:100%;
+    position:absolute;
+    text-align: justify; 
+}
+
+.content #img {
+    width:100%;
+    position:relative;
+    
+}
+
+.content #img img {
+    width:100%;
+}
+
+
+h3 {
+    font-family:'garamond', 'arial', 'helvetica', 'sans-serif';
+}
+
+p {
+    color: #333;
+    font-size: 25px;
+    font-family:'Times New Roman', 'serif';
+}
+
+
+
+/*  --ORIGINAL
+
+h1 {
+	color: #ff0000;
+	font-size: 30px;	
+}
+
+h2 {
+    color: purple;
+    font-family: fantasy, corbel, tahoma, verdana, arial, helvetica, sans-serif;
+}
+
+p {
+    color: grey;
+    font-size: 16px;
+}
+
+li {
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+}
+
+*/
